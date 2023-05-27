@@ -338,7 +338,7 @@ include "koneksi.php";
                             <thead>
                                 <tr>
                                     <th>Rangking</th>
-                                    <th>Nama Sekolah</th>
+                                    <th>Nama Karyawan</th>
                                     <th>Vi</th>
                                 </tr>
                             </thead>
@@ -488,8 +488,8 @@ function get_alternatif()
           $worst_school = $get_alternatif[array_search(reset($resultvi), $resultvi)][0];
           $worst_score = current($resultvi);
 
-          echo "<p>Mahasiswa dengan peringkat tertinggi adalah {$best_school} dengan skor {$best_score}.</p>";
-          echo "<p>Mahasiswa dengan peringkat terendah adalah {$worst_school} dengan skor {$worst_score}.</p>";
+          echo "<p>Karyawan dengan peringkat tertinggi adalah {$best_school} dengan skor {$best_score}.</p>";
+          echo "<p>Karyawan dengan peringkat terendah adalah {$worst_school} dengan skor {$worst_score}.</p>";
         ?>
       </div>
       <div class="modal-footer">
