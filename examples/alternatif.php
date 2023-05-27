@@ -360,12 +360,12 @@ if (isset($_POST['add_alternatif'])) {
     if (mysqli_affected_rows($koneksi) > 0) {
         echo "<script>
             alert('data berhasil di tambahkan');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     } else {
         echo "<script>
             alert('data gagal di tambahkan');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     }
 }
@@ -379,12 +379,12 @@ if (isset($_POST['edit_alternatif'])) {
     if (mysqli_affected_rows($koneksi) > 0) {
         echo "<script>
             alert('data berhasil di edit');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     } else {
         echo "<script>
             alert('data gagal di edit');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     }
 }
@@ -396,12 +396,12 @@ if (isset($_POST['delete_id'])) {
     if (mysqli_affected_rows($koneksi) > 0) {
         echo "<script>
             alert('data berhasil di hapus');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     } else {
         echo "<script>
             alert('data gagal di hapus');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     }
 }
@@ -418,12 +418,12 @@ if (isset($_POST['edit_kriteria'])) {
     if (mysqli_affected_rows($koneksi) > 0) {
         echo "<script>
             alert('data berhasil di edit');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     } else {
         echo "<script>
             alert('data gagal di edit');
-            document.location.href = 'alternatif_kriteria.php';
+            document.location.href = 'alternatif.php';
             </script>";
     }
 }

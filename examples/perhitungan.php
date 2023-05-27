@@ -333,7 +333,7 @@ include "koneksi.php";
                         </table>
                         <!-- tabel rangking -->
                         <br>
-                        <h3 align="center">Tabel Perangkingan Pemilihan Penerimaan Beasiswa UNISKA "SPK WP"</h3>
+                        <h3>Hasil</h3>
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>

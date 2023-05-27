@@ -139,23 +139,24 @@ include "koneksi.php";
                                                 </select>
                                             </div>
                                             <div class="form-group">
-                                                <label for="C1">C1 Nilai IPK</label>
+                                                <label for="C1">K1 Disiplin Waktu Kerja</label>
                                                 <input type="text" class="form-control" name="c1" id="C1" required>
                                             </div>
                                             <div class="form-group">
-                                                <label for="C2">C2 Semester</label>
+                                                <label for="C2">K2 Ketepatan Waktu Dalam Menyelesaikan Pekerjaan</label>
                                                 <input type="number" min="1" max="8" class="form-control" name="c2" id="C2" required>
                                             </div>
                                             <div class="form-group">
-                                                <label for="C3">C3 Pekerjaan Orangtua</label>
+                                                <label for="C3">K3 Kerja Team</label>
                                                 <input type="number" min="1" max="10" class="form-control" name="c3" id="C3" required>
                                             </div>
                                             <div class="form-group">
-                                                <label for="C4">C4 Jumlah Penghasilan Orangtua</label>
+                                                <label for="C4">K4 Absensi Karyawan</label>
                                                 <input type="number" min="1" max="100" class="form-control" name="c4" id="C4" required>
                                             </div>
                                             <div class="form-group">
-                                                <label>C5 Jumlah Saudara Kandung</label>
+                                                <label>K5 Penggunaan Alat – Alat Safety
+</label>
                                                 <select name="c5" class="form-control" required>
                                                     <option>1</option>
                                                     <option>2</option>
