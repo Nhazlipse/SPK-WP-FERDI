@@ -85,63 +85,38 @@ include "../layout/header.php";
     <h3 class="p-2" align="center">Sistem Pendukung Keputusan Karyawan Terbaik UNISKA</h3>
     <h5 align="center">Metode Weighted Product (WP)</h5>
 
-      <div class="content">
-        <div class="container-fluid">
-          
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-warning card-header-icon">
-                  <div class="card-icon">
-                    <i class="material-icons">content_copy</i>
-                  </div>
-                  <p class="card-category">Used Space</p>
-                  <h3 class="card-title">49/50
-                    <small>GB</small>
-                  </h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons text-danger">warning</i>
-                    <a href="javascript:;">Get More Space...</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-success card-header-icon">
-                  <div class="card-icon">
-                    <i class="material-icons">store</i>
-                  </div>
-                  <p class="card-category">Revenue</p>
-                  <h3 class="card-title">$34,245</h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">date_range</i> Last 24 Hours
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <div class="card card-stats">
-                <div class="card-header card-header-danger card-header-icon">
-                  <div class="card-icon">
-                    <i class="material-icons">info_outline</i>
-                  </div>
-                  <p class="card-category">Fixed Issues</p>
-                  <h3 class="card-title">75</h3>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">local_offer</i> Tracked from Github
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
+        <div class="container-fluid">
+        <div class="page-content">
+                    <section class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Weight Product</h4>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                        SPK Aplikasi Penerimaan Mahasiswa Baru Menggunakan Metode Weight
+                                        </p>
+                                        <hr>
+                                        <p class="card-text">SPK (Sistem Pendukung Keputusan) Aplikasi Penerimaan Mahasiswa Baru menggunakan metode Weight Product adalah sebuah sistem yang dirancang untuk membantu dalam pengambilan keputusan dalam proses penerimaan mahasiswa baru di sebuah institusi pendidikan.
+                                        </p>
+                                        <br>
+                                        <p class="card-text">Metode Weight Product (WP) adalah metode pengambilan keputusan yang menggunakan pembobotan terhadap kriteria-kriteria yang relevan untuk menentukan peringkat alternatif. Dalam konteks ini, kriteria-kriteria tersebut dapat mencakup nilai akademik, prestasi ekstrakurikuler, tes masuk, atau kriteria lainnya yang relevan dalam proses seleksi.
+                                        </p>
+                                        <br>
+                                        <p class="card-text">SPK ini memungkinkan pihak yang bertanggung jawab dalam penerimaan mahasiswa baru, seperti panitia seleksi atau staf administrasi, untuk menginput data dan bobot kriteria yang diperlukan. Selanjutnya, SPK akan melakukan perhitungan berdasarkan metode Weight Product untuk memberikan peringkat atau skor kepada setiap calon mahasiswa baru.
+                                        </p>
+                                        <br>
+                                        <p class="card-text">Dengan menggunakan metode Weight Product, SPK ini dapat membantu memudahkan proses seleksi mahasiswa baru dengan memberikan hasil yang lebih objektif dan terukur. Dalam hal ini, keputusan akhir tentang penerimaan mahasiswa baru masih bergantung pada pihak yang bertanggung jawab, namun SPK ini dapat menjadi alat yang berharga dalam membantu mereka dalam proses pengambilan keputusan yang lebih efisien dan konsisten.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
 
 
